@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propuesta de Proyecto: Tablero para Monitoreo Móvil (Android)</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Propuesta de Proyecto: Tablero para Monitoreo Móvil (Android) con Dispositivo ELM327</h1>
+    </header>
+
+    <main>
+        <section id="desarrollo-software">
+            <h2>1. Desarrollo de Software</h2>
+            <ul>
+                <li>Análisis Financiero de Software <a href="analisis financiero c2.pdf" target="_blank">[cite: 2]</a></li>
+                <li>Conceptos y actividades correspondientes al segundo corte. [cite_start]<a href="analisis financiero c2.pdf" target="_blank">[cite: 3]</a></li>
+                <li>Conceptos y actividades correspondientes al proyecto "Tablero para monitoreo móvil (android) con el dispositivo EML 327".</li>
+            </ul>
+        </section>
+
+        <section id="medicion-software">
+            <h2>2. Medición del Software</h2>
+            <p>Los pasos para realizar esta medición son los siguientes: <a href="analisis financiero c2.pdf" target="_blank">[cite: 5]</a></p>
+            <ul>
+                <li>Fase 1: Estrategia de medición.<a href="analisis financiero c2.pdf" target="_blank">[cite: 6]</a></li>
+                <li>Fase 2: Mapeo. <a href="analisis financiero c2.pdf" target="_blank">[cite: 7]</a></li>
+                <li>Fase 3: Medición.<a href="analisis financiero c2.pdf" target="_blank">[cite: 8]</a></li>
+            </ul>
+        </section>
+
+        <section id="movimiento-datos">
+            <h2>3. Movimiento de Datos (Mapeo)</h2>
+            <p>Subproceso que mueve un único grupo de datos <a href="analisis financiero c2.pdf" target="_blank">[cite: 11]</a>:</p>
+            <ul>
+                <li>Entry (entrada) <a href="analisis financiero c2.pdf" target="_blank">[cite: 12]</a></li>
+                <li>exit (salida) <a href="analisis financiero c2.pdf" target="_blank">[cite: 14]</a></li>
+                <li>Read (lectura) <a href="analisis financiero c2.pdf" target="_blank">[cite: 15]</a></li>
+                <li>Write (escritura) <a href="analisis financiero c2.pdf" target="_blank">[cite: 16]</a></li>
+            </ul>
+
+            <h3>Proceso funcional: Lectura y visualización de datos del coche.</h3>
+            <h4>Movimientos de datos: <a href="analisis financiero c2.pdf" target="_blank">[cite: 28]</a></h4>
+            <ul>
+                <li>Entrada: Conexión Bluetooth con el dispositivo ELM327.</li>
+                <li>Entrada: Recepción de lecturas (velocidad, RPM, distancia recorrida) desde el ELM327.</li>
+                <li>Lectura: Decodificación de los datos recibidos del ELM327.</li>
+                <li>Salida: Visualización de la velocidad en el tablero de indicadores.</li>
+                <li>Salida: Visualización de las RPM en el tablero de indicadores.</li>
+                <li>Salida: Visualización de la distancia recorrida en el tablero de indicadores.</li>
+            </ul>
+        </section>
+
+        <section id="puntos-funcion-cosmic">
+            <h2>4. Puntos de Función COSMIC (Estimación Preliminar)</h2>
+
+            <h3>Proceso funcional: Mostrar tablero de indicadores.</h3>
+            <h4>Movimientos de datos:</h4>
+            <ul>
+                <li>Entrada: Conexión con el dispositivo ELM327.</li>
+                <li>Lectura: Obtener datos de velocidad desde el ELM327.</li>
+                <li>Lectura: Obtener datos de RPM desde el ELM327.</li>
+                <li>Lectura: Obtener datos de distancia recorrida desde el ELM327.</li>
+                <li>Salida: Mostrar velocidad en indicador.</li>
+                <li>Salida: Mostrar RPM en indicador.</li>
+                <li>Salida: Mostrar distancia recorrida en indicador.</li>
+            </ul>
+            <p>Puntos de función COSMIC: [Estimación a determinar tras un análisis detallado de los requisitos y especificaciones del proyecto] CFP. [cite_start]<a href="analisis financiero c2.pdf" target="_blank">[cite: 38, 52]</a></p>
+
+            <p>Puntos de función COSMIC Totales del Proyecto: [Suma de los CFP de todos los procesos funcionales] CFP. [cite_start]<a href="analisis financiero c2.pdf" target="_blank">[cite: 55]</a></p>
+        </section>
+
+        <section id="costo-equipo">
+            <h2>5.Costo del Equipo de Trabajo de Desarrollo de Software <a href="analisis financiero c2.pdf" target="_blank">[cite: 57, 59]</a></h2>
+            <p>Costo por punto de función = Costo mes del equipo de trabajo / puntos de función del mes <a href="analisis financiero c2.pdf" target="_blank">[cite: 60]</a></p>
+            <p><em>Ejemplo de cálculo (valores a determinar para este proyecto):</em></p>
+            <p>Si el costo mensual del equipo de trabajo es de <code>X USD</code> y se estiman <code>Y</code> puntos de función COSMIC por mes de desarrollo.</p>
+            <p>Costo por punto de función = <code>X USD / Y puntos de función = Z USD</code> por Punto de función. [cite_start]<a href="analisis financiero c2.pdf" target="_blank">[cite: 62]</a></p>
+        </section>
+
+        <section id="costo-proyecto">
+            <h2>6. Costo del Proyecto de Software</h2>
+            <p>Costo de un proyecto de software = Tamaño del software x Costo por punto de función <a href="analisis financiero c2.pdf" target="_blank">[cite: 64]</a></p>
+            <p><em>Ejemplo de cálculo (valores a determinar para este proyecto):</em></p>
+            <p>Costo del proyecto de software = [Puntos de función COSMIC Totales del Proyecto] CFP $\times$ [Costo por punto de función] USD <a href="analisis financiero c2.pdf" target="_blank">[cite: 66]</a></p>
+            <p>Costo del proyecto de software = [Costo total estimado] USD <a href="analisis financiero c2.pdf" target="_blank">[cite: 67]</a></p>
+        </section>
+
+        <section id="tiempo-proyecto">
+            <h2>7. Tiempo que Durará el Proyecto <a href="analisis financiero c2.pdf" target="_blank">[cite: 69]</a></h2>
+            <p>Duración del proyecto = [Puntos de función COSMIC Totales del Proyecto] / [Puntos de función COSMIC desarrollados por mes] <a href="analisis financiero c2.pdf" target="_blank">[cite: 70]</a></p>
+            <p><em>Ejemplo de cálculo (valores a determinar para este proyecto):</em></p>
+            <p>Duración del proyecto = [Puntos de función COSMIC Totales del Proyecto] CFP / [Puntos de función COSMIC desarrollados por mes] CFP/mes</p>
+            <p>Duración del proyecto = [Duración estimada] meses <a href="analisis financiero c2.pdf" target="_blank">[cite: 71]</a></p>
+        </section>
+    </main>
+
+    <footer>
+        [cite_start]<p>Desarrollo de Software <a href="analisis financiero c2.pdf" target="_blank">[cite: 1, 9, 25, 39, 53, 56, 58, 63, 68, 72]</a></p>
+    </footer>
+</body>
+</html>
